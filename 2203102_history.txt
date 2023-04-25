@@ -1,0 +1,105 @@
+    1  git --version
+    2  git config --global user.name "AnilPatel7636"
+    3  git config --global user.email "anilpatelap042@gmail.com"
+    4  ls -als
+    5  cat .gitconfig
+    6  ssh-keygen -t RSA
+    7  ls -als
+    8  cat .ssh
+    9  cd .ssh
+   10  ls -al
+   11  cat id_rsa.pub
+   12  cd
+   13  git clone git@github.com:AnilPatel7636/cs-102-work.git
+   14  ls -al
+   15  cd cs-102-work
+   16  ls -al
+   17  touch test2.txt
+   18  cat > test2.txt
+   19  cat test2.txt
+   20  git status
+   21  git add test2.txt
+   22  git status
+   23  git commit -m "commited from mancurad server"
+   24  git log
+   25  git remote -v
+   26  git push origin main
+   27  cd
+   28  cd cs-102-work
+   29  cat test2.txt
+   30  git pull origin main
+   31  cat test2.txt
+   32  cd
+   33  exit
+   34  ls -al
+   35  exit
+   36  ls -als
+   37  git clone git@github.com:AnilPatel7636/2203102-lab-exam.git
+   38  ls -al
+   39  cd 2203102-lab-exam
+   40  echo "This file is created for keeping track of shell scripts" > README.md
+   41  ls -al
+   42  cat README.md
+   43  cd
+   44  git clone https://github.com/tusharlone/cs102-git-essentials.git
+   45  ls -al
+   46  cd cs102-git-essentials
+   47  ls -al
+   48  cp ca_500.csv 2203102-lab-exam
+   49  cp us_500.csv 2203102-lab-exam
+   50  cd
+   51  cd 2203102-lab-exam
+   52  ls -al
+   53  ls -als
+   54  pwd
+   55  cd
+   56  ls -al
+   57  cd cs102-git-essentials
+   58  ls -al
+   59  cp ca_500.csv /users/ug22/2203102/2203102-lab-exam
+   60  cp us_500.csv /users/ug22/2203102/2203102-lab-exam
+   61  cd
+   62  cd 2203102-lab-exam
+   63  ls -al
+   64  cat ca_500.csv
+   65  wc -l ca_500.csv
+   66  wc -l us_500.csv
+   67  vim 2203102-analysis
+   68  rm vim 2203102-analysis
+   69  rm 2203102-analysis
+   70  ls -al
+   71  cat head -n1 ca_500.csv
+   72  head -n1 ca_500.csv
+   73  head -n1 us_500.csv
+   74  head -n1 ca_500.csv > ca_city_Montreal.csv
+   75  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+   76  ls -al
+   77  cat ca_city_Montreal.csv
+   78  vim 2203102_data_filter.sh
+   79  bash 2203102_data_filter.sh us_500.csv city Miami
+   80  ls -al
+   81  cat us_500.csv_city_Miami.csv
+   82  vim 2203102_data_filter.sh
+   83  bash 2203102_data_filter.sh us_500.csv city Miami
+   84  vim 2203102_data_filter.sh
+   85  bash 2203102_data_filter.sh us_500.csv city Miami
+   86  vim 2203102_data_filter.sh
+   87  bash 2203102_data_filter.sh us_500.csv city Miami
+   88  ls -al
+   89  bash 2203102_data_filter.sh us_500.csv city Miami
+   90  vim 2203102_data_filter.sh
+   91  ls -al
+   92  rm city_Miami.csv
+   93  rm us_500.csv_city_Miami.csv
+   94  la -al
+   95  ls -al
+   96  bash 2203102_data_filter.sh us_500.csv city Miami
+   97  ls -al
+   98  cat us_500.csv_city_Miami.csv
+   99  mkdir code
+  100  mkdir data
+  101  mv 2203102_data_filter.sh code
+  102  ls -al
+  103  mv *.csv data
+  104  ls -al
+  105  history >> 2203102_history.txt
